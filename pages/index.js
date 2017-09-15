@@ -6,7 +6,7 @@ class IndexPage extends Component {
   render() {
     return (
       <h1>
-        Real friends, how many of us?
+        🌈 Ultimate Relationship Manager 9000 ✨
       </h1>
     );
   }
