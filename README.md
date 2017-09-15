@@ -11,7 +11,7 @@ npm run dev
 
 Create a web application that creates, reads and deletes contacts to/from a Firebase database.
 This repository is already set up as a Next.js application, with Redux connected via the `withRedux` 
-higher-order component.
+higher-order component. Skeleton.css is also included here, which is used throughout the designs.
 
 Design screenshots can be found in the `designs/` folder. Mobile, tablet, and desktop designs are provided. 
 On mobile, the contacts table is shown, with a button that toggles the visibility of the contact creation form. 
