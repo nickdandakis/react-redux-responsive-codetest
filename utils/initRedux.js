@@ -16,7 +16,7 @@ let reduxStore = null;
 
 let devtools = f => f;
 if (isClient && !isProduction && window.navigator.userAgent.includes('Chrome')) {
-  devtools = window.devToolsExtension && window.devToolsExtension();
+  devtools = window.devToolsExtension && window.devToolsExtension() || f => f;
 }
 
 function create (initialState = {}) {
